@@ -1,0 +1,17 @@
+// Header
+#mainheader {
+  background: #c2d7d8;
+  color: #fff;
+  p {
+    margin: 0 auto;
+  }
+}
+
+// Home
+#home {
+  .home-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  } //End .home-wrapper
+} //End #home

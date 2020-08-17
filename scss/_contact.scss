@@ -1,0 +1,22 @@
+// Contact
+#contact {
+  padding-top: 100px;
+  margin: 0 auto;
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 3em;
+    &-form {
+      padding: 100px;
+    }
+    &-content {
+      padding: 120px 180px 0 0;
+      a {
+        color: $main-color;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    } //End &-content
+  } //End .contact-wrapper
+} //End #contact
